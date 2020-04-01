@@ -1,0 +1,9 @@
+[service]
+port = 45556
+
+[event_store]
+host = "0.0.0.0:32803"
+cluster_id = "test-cluster"
+
+[signal_server]
+host = "0.0.0.0:32803"
